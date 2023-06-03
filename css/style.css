@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inconsolata:wght@900&family=Lato:wght@700;900&family=Patua+One&family=Roboto:wght@100;300;400;700&display=swap');
+
+:root{
+    --colorHeader: #000;
+    --colorFooter: #641111;
+    --fuente: 'Roboto', sans-serif;
+    --enlaces: #fff;
+    --enlaceSobre: rgb(231, 52, 52);
+    
+}
