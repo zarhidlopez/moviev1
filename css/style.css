@@ -659,6 +659,27 @@ img{
     transform: scale(1.1);
 }
 
+.bay-cards{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    left: 90px;
+}
+
+.bay-cards .button-cards{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #f3710d;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.bay-cards .button-cards:hover{
+    transform: scale(1.1);
+}
+
+
 /*responsive*/
 
 @media screen and (max-width: 650px) {
@@ -671,6 +692,49 @@ img{
         align-items: center;
         justify-content: center;
     }
+
+    .container-menu .header-superior{
+        width: 100%;
+        display: block;
+    }
+
+    .container-menu nav ul{
+        width: 100%;
+        position: absolute;
+        display: block;
+        background-color: #000;
+        top: 100%;
+        right: 0;
+        left: 0;
+        z-index: 3;
+        padding-top: 20px;
+        height: auto;
+    }
+
+    .container-menu ul li{
+        width: 100%;
+        position: static;
+    }
+    .container-menu ul li a{
+        width: 100%;
+        float: none;
+        color: #fff;
+        display: block;
+        margin-left: 25px;
+    }
+
+    .container__slider{
+        width: 100%;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .title{
+        width: 100%;
+        margin-top: 400px;
+        padding-top: 20px;
+    }
+
 
 }
 
